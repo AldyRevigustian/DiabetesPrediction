@@ -1,0 +1,11 @@
+{
+    "Accuracy (Training)": 0.989,
+    "Accuracy (Validation)": 0.959,
+    "F1-Score (Validation)": 0.961,
+    "Accuracy (Test)": 0.953,
+    "F1-Score (Test)": 0.955,
+    "AUC (Validation)": 0.982,
+    "AUC (Test)": 0.965,
+    "AP (Validation)": 0.911,
+    "AP (Test)": 0.88
+}

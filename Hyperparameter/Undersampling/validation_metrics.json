@@ -1,0 +1,17 @@
+{
+    "Random Forest": {
+        "cv_validation_accuracy": 0.9218764701157734
+    },
+    "Decision Tree": {
+        "cv_validation_accuracy": 0.9113237639553429
+    },
+    "XGBoost": {
+        "cv_validation_accuracy": 0.9352954000436015
+    },
+    "Gradient Boosting": {
+        "cv_validation_accuracy": 0.9319415281172191
+    },
+    "CatBoost": {
+        "cv_validation_accuracy": 0.9324188496093078
+    }
+}

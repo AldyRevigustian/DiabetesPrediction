@@ -1,0 +1,45 @@
+{
+    "Random Forest": {
+        "n_estimators": 200,
+        "min_samples_split": 40,
+        "min_samples_leaf": 5,
+        "max_features": 0.7,
+        "max_depth": 20,
+        "ccp_alpha": 0
+    },
+    "Decision Tree": {
+        "min_samples_split": 20,
+        "min_samples_leaf": 20,
+        "max_depth": 5,
+        "criterion": "entropy",
+        "ccp_alpha": 0
+    },
+    "XGBoost": {
+        "subsample": 0.9,
+        "reg_lambda": 3,
+        "reg_alpha": 0.1,
+        "n_estimators": 200,
+        "max_depth": 6,
+        "learning_rate": 0.1,
+        "gamma": 0.1,
+        "colsample_bytree": 0.7
+    },
+    "Gradient Boosting": {
+        "subsample": 0.8,
+        "n_estimators": 300,
+        "min_samples_split": 40,
+        "min_samples_leaf": 15,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.05
+    },
+    "CatBoost": {
+        "subsample": 0.9,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 10,
+        "iterations": 400,
+        "depth": 7,
+        "colsample_bylevel": 0.8,
+        "border_count": 32
+    }
+}
